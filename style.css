@@ -99,6 +99,9 @@ form .row input::placeholder{
   border: 1px solid #16a085;
   cursor: pointer;
 }
+#butn{
+  text-decoration: none;
+}
 form .button input:hover{
   background: #12876f;
 }
@@ -260,7 +263,4 @@ form .button input:hover{
 }
 form .signup-link a:hover{
   text-decoration: underline;
-}
-);
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.56));
 }
