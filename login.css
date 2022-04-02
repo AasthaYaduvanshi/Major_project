@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Open+Sans:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -17,13 +17,13 @@ background-repeat: no-repeat;
 }
 .sub-container{
     position: absolute;
-width: 80%;
-height: 75%;
-left: 150px;
-top: 100px;
-background: rgba(0, 16, 54, 0.603);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24);
-border-radius: 29px;
+    width: 80%;
+    height: 75%;
+    left: 150px;
+    top: 100px;
+    background: rgba(0, 16, 54, 0.603);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24);
+    border-radius: 29px;
 }
 .title{
     color:aliceblue;
@@ -46,9 +46,14 @@ border-radius: 29px;
     color:aliceblue;
     align-items: center;
     justify-content: center;
+    padding-top: 10px;
     display: flex;
     font-family: 'Nunito', sans-serif;
-font-family: 'Varela Round', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500 !important;
+}
+#poli{
+    padding-top: 10px;
 }
 .button {
     background-color: #008CBA;
@@ -79,6 +84,7 @@ font-family: 'Varela Round', sans-serif;
 margin-left: 12px;
 margin-right: 17px;
 margin-bottom: 5px;
+color: aliceblue;
 }
 .password{
     display: flex;
@@ -89,4 +95,5 @@ margin-bottom: 5px;
     margin-left: 12px;
     margin-right: 17px;
     margin-bottom: 5px;
+    color: aliceblue;
 }
